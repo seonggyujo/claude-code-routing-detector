@@ -21,6 +21,8 @@ In Claude Code:
 /plugin install routing-detector@routing-detector
 ```
 
+The first command only registers this repository as a plugin source; the second one installs the plugin.
+
 After installing, send any message. If you have no status line, the plugin sets up its own and Claude asks you to restart Claude Code once; it shows after that restart (Claude Code reads the status line setting only when it starts). If you already have a status line of your own, it is left as is; run `/routing-detector:setup` to add a model-check line to it or to replace it.
 
 | Command | What it does |

@@ -21,6 +21,8 @@ Claude Code에서 실행합니다.
 /plugin install routing-detector@routing-detector
 ```
 
+첫 번째 명령은 이 저장소를 플러그인 출처로 등록만 합니다. 설치는 두 번째 명령으로 합니다.
+
 설치한 뒤 아무 메시지나 보내세요. statusline이 없으면 플러그인이 설정을 해 두고, Claude가 재시작을 한 번 안내합니다. 재시작하면 statusline이 보입니다(Claude Code는 시작할 때만 statusline 설정을 읽습니다). 이미 쓰는 statusline이 있으면 그대로 둡니다. 거기에 모델 확인 한 줄을 추가하거나 교체하려면 `/routing-detector:setup`을 실행하세요.
 
 | 명령 | 하는 일 |
