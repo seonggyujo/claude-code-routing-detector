@@ -1,0 +1,14 @@
+{
+  "name": "routing-detector",
+  "description": "Claude Code status line that checks the answering model",
+  "owner": {
+    "name": "seonggyujo"
+  },
+  "plugins": [
+    {
+      "name": "routing-detector",
+      "source": "./",
+      "description": "Green-themed status line that checks whether the model that answered matches the model you selected, with a local answer history"
+    }
+  ]
+}

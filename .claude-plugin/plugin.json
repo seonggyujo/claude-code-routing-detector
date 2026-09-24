@@ -1,0 +1,17 @@
+{
+  "name": "routing-detector",
+  "version": "0.1.0",
+  "description": "Green-themed status line that checks whether the model that answered matches the model you selected, with a local answer history",
+  "author": {
+    "name": "seonggyujo"
+  },
+  "homepage": "https://github.com/seonggyujo/claude-code-routing-detector",
+  "repository": "https://github.com/seonggyujo/claude-code-routing-detector",
+  "license": "MIT",
+  "keywords": [
+    "statusline",
+    "status-line",
+    "model",
+    "green"
+  ]
+}
